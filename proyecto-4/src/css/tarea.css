@@ -1,0 +1,35 @@
+.tarea-contenedor{
+    width: 500px;    
+    min-height: 45px;
+    background-color: rgb(103, 103, 103);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    border-radius: 4px;
+    border: 1px solid white; 
+    cursor: pointer;   
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.tarea-texto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-wrap: anywhere;
+}
+.icono{
+    width: 24px;
+    height: 24px;
+}
+.iconos{
+    width: 24px;
+    height: 24px;
+}
+.tarea-contenedor.hecha{
+    background-color: rgb(1, 16, 22);
+    text-decoration: line-through;
+    color: blueviolet;
+}
