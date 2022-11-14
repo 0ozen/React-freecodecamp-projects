@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.cuadros{
+  display: flex;
+  width: 90%;
+  height: 330px;
+  margin:  20px auto;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+  
+  border-radius: 1rem;
+  
+}
+.cuadros:hover{
+  box-shadow: 0 3px 10px 1px  rgb(61, 55, 55);
+  transition: box-shadow 0.3s ease;
+}
+h1{
+  font-size: 2.5rem;
+  color: rgb(6, 173, 117);
+  padding: 0 200px;
+}
+
+.imagen-cuadro{
+  height: 100%;
+  width: auto;
+  border-radius: 1rem;
+
+}
+.texto-cuadro{
+ width: 100%;
+ height: 100%;
+}
+.nombre{
+  font-weight: 470;
+  font-size: 1.9rem;
+  margin: 20px 0;
+}
+.cargo{
+  font-size: 1.5rem;
+  margin-top: 15px;
+
+}
+.testimonio{
+  padding: 40px;
+  margin-inline: 0.5rem;
+  font-size: 1rem;
+  margin-top: 20px;
+}

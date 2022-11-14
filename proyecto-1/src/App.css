@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  font-size: 15px;
+  background-color: rgb(242, 240, 238);
+}
+h1{
+  min-width: 800px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 40px 0;
+  line-height: 1.1;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
